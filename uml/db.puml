@@ -1,0 +1,15 @@
+@startuml
+
+object users {
+    id: long
+    name: string
+    email: string
+}
+
+object pics {
+    id: long
+    user_id: long
+    location:string
+}
+
+@enduml
